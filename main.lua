@@ -6,7 +6,7 @@ function love.load()
   width = 1280
   height = 768
 
-  success = love.graphics.setMode(width, height)
+  success = love.window.setMode(width, height)
 
   tone = love.audio.newSource("tone.ogg", "stream")
   tone:setLooping(false)
